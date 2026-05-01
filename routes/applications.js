@@ -3,7 +3,7 @@ const express     = require("express");
 const router      = express.Router();
 const jwt         = require("jsonwebtoken");
 const Application = require("../models/Application");
-const Student     = require("../models/Student");
+const Student     = require("../models/student");
 const User        = require("../models/User");
 const Internship  = require("../models/Internship");
 

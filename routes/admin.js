@@ -3,7 +3,7 @@ const express = require("express");
 const router  = express.Router();
 const jwt     = require("jsonwebtoken");
 const User    = require("../models/User");
-const Student = require("../models/Student");
+const Student = require("../models/student");
 const Internship = require("../models/Internship");
 
 // Auth middleware — admin only

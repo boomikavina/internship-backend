@@ -4,7 +4,7 @@ const router     = express.Router();
 const multer     = require("multer");
 const path       = require("path");
 const fs         = require("fs");
-const Student    = require("../models/Student");
+const Student    = require("../models/student");
 const Internship = require("../models/Internship");
 const jwt        = require("jsonwebtoken");
 
